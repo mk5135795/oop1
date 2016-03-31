@@ -610,7 +610,7 @@ public:
 int main(int argc, char *argv[])
 {
     Gerda B;
-    printf("%s", B.get_origin());
+    printf("%s g%i %s\n%s\n", B.get_name(), B.get_genertaion(), B.get_type(), B.get_origin());
     return 0;
 }
 
