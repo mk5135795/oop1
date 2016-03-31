@@ -680,7 +680,7 @@ char *Gen_0::get_origin(){
 };
 
 Gen_0::~Gen_0(){
-    //delete[] origin;
+    delete[] origin;
     delete[] race;
     delete[] name;
 };
